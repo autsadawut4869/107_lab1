@@ -5,7 +5,7 @@ int main(){
     if(n>=0.00&&n<=11.59){
         printf("%.2f a.m",n);
     }
-    else
+    if(n>11.59&&n<24.00)
     {
         printf("%.2f p.m",n);
     }
