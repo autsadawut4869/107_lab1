@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    int n;
-    long long m3,m11;
+    long long n;
+    int m3,m11;
     scanf("%d",&n);
     m3=n%3;
     m11=n%11;
