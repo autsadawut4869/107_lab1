@@ -1,6 +1,5 @@
 #include <stdio.h>
-int main()
-{
+int main(){
     long long int n,a,b;
     scanf("%d",&n);
     a=n%3;
