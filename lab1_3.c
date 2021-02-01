@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main(){
-    long long int n,m3,m11;
+    long long int n,a,b;
     scanf("%d",&n);
-    m3=n%3;
-    m11=n%11;
-    printf("%d %d",m3,m11);
+    a = n%3;
+    b = n%11;
+    printf("%d %d",a,b);
 
     return 0;
 }
