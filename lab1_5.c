@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main (){
-    int n,j=0,i=0,max;
-    scanf("%d",&n);
-    int a[n];
+    long long int n,j=0,i=0,max;
+    scanf("%lld",&n);
+    long long int a[n];
     for(i=0;i<n;i++){
-        scanf("%d",&a[i]);
+        scanf("%lld",&a[i]);
     }
     max=a[0];
     for(i=1;i<n;i++){
@@ -13,8 +13,7 @@ int main (){
             j=i+1;
         }
     }
-
-    printf("%d %d",j,max);
+    printf("%lld %lld",j,max);
 
     return 0;
 }
