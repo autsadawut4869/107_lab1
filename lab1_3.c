@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(){
-    unsigned long int n,a,b;
-
+    unsigned long int n;
+    long int a,b;
     scanf("%ul",&n);
     a=n%3;
     b=n%11;
-    printf("%d %d",a,b);
+    printf("%ld %ld",a,b);
 
     return 0;
 }
